@@ -12,5 +12,5 @@ img2 = cv2.resize(img2,(1280,700)) #width , height
 cv2.imshow("gray scale image",img2)
 print("image in gray scale ==\n",img2) 
 
-cv2.waitKey()
+cv2.waitKey(0)  #0 for static cut the output
 cv2.destroyAllWindows()
